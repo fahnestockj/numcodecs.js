@@ -1,6 +1,7 @@
 {
   "include": ["src", "types", "codecs"],
   "compilerOptions": {
+    "outDir": "./dist",
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",

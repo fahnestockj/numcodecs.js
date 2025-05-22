@@ -1,6 +1,6 @@
 {
-  "name": "numcodecs",
-  "version": "0.3.2",
+  "name": "@fahnestockj/numcodecs-fork",
+  "version": "0.3.5",
   "description": "Buffer compression and transformation codecs for use in data storage and communication applications.",
   "author": "Trevor Manz",
   "license": "MIT",
@@ -19,13 +19,14 @@
   "files": [
     "dist"
   ],
+  "main": "./dist/index.js",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     },
     "./gzip": {
-      "types": "./dist/gzip.d.t.s",
+      "types": "./dist/gzip.d.ts",
       "import": "./dist/gzip.js"
     },
     "./zlib": {

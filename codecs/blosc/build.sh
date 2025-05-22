@@ -69,6 +69,7 @@ cd ../../../
     ${OPTIMIZE} \
     --closure 1 \
     --bind \
+    -s DYNAMIC_EXECUTION=0 \
     -s ALLOW_MEMORY_GROWTH=1 \
     -s MODULARIZE=1 \
     -s EXPORT_ES6=1 \
